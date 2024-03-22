@@ -1,4 +1,4 @@
-body{
+body {
   background-color: hsl(217, 54%, 11%);
   display: flex;
   justify-content: center;
@@ -6,77 +6,80 @@ body{
   margin: 0;
   padding: 0;
   font-family: "Outfit", sans-serif;
-  font-weight: 300, 400, 600;
 }
 
-.container{
+.container {
   background-color: hsl(216, 50%, 16%);
   display: flex;
   justify-content: center;
-  align-items: left;
+  align-items: flex-start;
   flex-direction: column;
-  flex-wrap: wrap;
-  min-height: auto;
   width: 350px;
   border-radius: 30px;
   padding: 20px;
   margin: 50px;
 }
 
-.equilibrium-img{
-  width: 260px;
-  padding: 5px;
-  margin: 50px;
+.equilibrium-img {
+  width: 100%;
   border-radius: 30px;
   cursor: pointer;
 }
 
-
-h3{
-  color: hsl(0, 0%, 100%);
+h3 {
+  color: #fff;
   cursor: pointer;
-  font-family: sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
-h2:hover{
+h3:hover {
   color: hsl(178, 100%, 50%);
 }
 
-p{
+p {
   color: hsl(215, 51%, 70%);
   font-size: 18px;
 }
 
-.item{
+.item {
   display: flex;
-  align-items: center; /* Align items vertically */
+  align-items: center;
   margin-top: 10px;
-  padding: 0;
-  margin: 0;
+}
+
+.item img {
+  margin-right: 5px;
+}
+
+.value{
+  color: hsl(178, 100%, 50%);
+  margin-right: 140px;
 }
 
 hr{
-  border-color: hsl(215, 32%, 27%);
+  border: none;
+  border-top: 1px solid white;
+  margin: 10px 0; /* Adjust the margin as needed */
 }
 
-.profile{
+.profile {
   display: flex;
-  align-items: center; /* Align items vertically */
+  align-items: center;
   margin-top: 10px;
-  padding: 0;
-  margin: 0;
 }
 
 .profile img {
-  width: 10%;
-  height: 10%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
-.profile-name{
+.profile-name {
   cursor: pointer;
-  color: hsl(0, 0%, 100%);
+  color: #fff;
 }
 
-.profile-name:hover{
+.profile-name:hover {
   color: hsl(178, 100%, 50%);
 }
