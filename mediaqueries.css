@@ -1,0 +1,6 @@
+/* Screen width upto 375px */
+@media (max-width: 375px) {
+  .item {
+    width: calc(50% - 20px);
+}
+}
