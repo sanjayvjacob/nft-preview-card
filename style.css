@@ -13,7 +13,6 @@ body {
   background-color: hsl(216, 50%, 16%);
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
   flex-direction: column;
   width: 300px;
   min-height: 100px;
@@ -30,7 +29,6 @@ body {
 .main-img {
   display: block;
   width: 100%;
-  height: auto;
   border-radius: 10px;
 }
 
@@ -42,12 +40,11 @@ body {
   left: 0;
   right: 0;
   height: 100%;
-  width: 100%;
   opacity: 0;
   transition: .3s ease;
   background-color: hsl(178, 100%, 50%, 0.5); /* Adjust opacity for better visibility */
   cursor: pointer;
-  z-index: 1; /* Ensure the overlay is behind the eye icon */
+   z-index: 1; /*Ensure the overlay is behind the eye icon */
 }
 
 .img-container:hover .overlay {
@@ -62,13 +59,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
   z-index: 2; /* Ensure the eye icon is above the overlay */
-}
-
-.eye:hover {
-  /* opacity: 1; */
-  color: #fff;
 }
 
 h3 {
@@ -102,7 +93,7 @@ p {
 
 hr{
   border: none;
-  border-top: 1px solid white;
+  border-top: 1px solid hsl(215, 51%, 70%);
   margin: 10px 0; /* Adjust the margin as needed */
 }
 
